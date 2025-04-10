@@ -1,0 +1,75 @@
+.login {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url(file:///C:/Users/ashva/OneDrive/Desktop/Html%20CSS/login%20form/peter-rovder-X_5kMOSxLzw-unsplash.jpg);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: absolute;
+    display:flex ;
+
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff; /* or whatever background you want */
+    background: url(file:///C:/Users/ashva/OneDrive/Desktop/Html%20CSS/login%20form/peter-rovder-X_5kMOSxLzw-unsplash.jpg);
+  }
+ form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+
+    text-shadow: 0px,0px,2px rgba(0,0,0,0.5);
+    margin-bottom: 60px;
+}
+
+label {
+    color: rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+input {
+    background: rgba(255,255,255,0.3);
+    height: 40px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 40px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+button {
+    background: rgb(45,126,231);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    margin:10px 0px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: white;
+}
